@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: instrument-serif;
-    src: url("./assets/fonts/instrument-serif.ttf");
+    src: url("./assets/fonts/instrument-serif-i.ttf");
 }
 
 html{
@@ -35,4 +35,11 @@ button.primary-btn{
 
 .italic{
     font-family: instrument-serif;
+}
+
+.main-heading{
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+    font-weight: 900;
+    font-family: instrument-sans;
 }
