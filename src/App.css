@@ -9,6 +9,11 @@
     src: url("./assets/fonts/instrument-sans.ttf");
 }
 
+@font-face {
+    font-family: instrument-serif;
+    src: url("./assets/fonts/instrument-serif.ttf");
+}
+
 html{
     font-size: 62.5%;
 }
@@ -26,4 +31,8 @@ button{
 button.primary-btn{
     background-color: green;
     color: #fff;
+}
+
+.italic{
+    font-family: instrument-serif;
 }
