@@ -1,17 +1,28 @@
+import "./Hero.css"
+import menuIcon from "./assets/menu-icon.svg"
+import resumeIcon from "./assets/resume-icon.svg"
+
 function Hero(){
     return (
-        <>
-        <header>
+        <section className="hero-section">
+            <div className="inner-wrapper">
+            <header>
             <nav></nav>
-            <button>Menu</button>
+            <button className="menu-btn">
+                <img src={menuIcon} alt="menu icon" />
+            </button>
         </header>
 
-        <h1>Fullstack Web Developer & User Interface Designer</h1>
+        <h1>Fullstack Web Developer & <span className="italic">User Interface Designer</span></h1>
 
         <p>Hey there! I am Emmanuel Nsikan-David, a fullstack developer with a strong focus on frontend development. I design and build web applications that not only look good but are easy to use</p>
 
-        <button>[icon] Resume</button>
-        </>
+        <button className="primary-btn">
+            <img src={resumeIcon} alt="resume-icon" /> 
+            Resume
+            </button>
+            </div>
+        </section>
     )
 }
 

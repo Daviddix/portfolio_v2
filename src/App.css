@@ -1,0 +1,29 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: instrument-sans;
+    src: url("./assets/fonts/instrument-sans.ttf");
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.inner-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button.primary-btn{
+    background-color: green;
+    color: #fff;
+}

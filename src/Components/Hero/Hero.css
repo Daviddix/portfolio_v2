@@ -1,0 +1,44 @@
+.hero-section{
+    padding : 2rem 0;
+    background-image : url("./assets/gradient-desktop.svg"),
+    url("./assets/dots.svg")
+    ;
+    background-size: cover;
+    font-family: instrument-sans;
+}
+
+.hero-section .menu-btn{
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 0 0 2rem auto;
+}
+
+.hero-section h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+.hero-section p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.hero-section .primary-btn{
+    border: none;
+    display: block;
+    margin: auto;
+    column-gap: .5rem;
+    padding: 1.2rem 2.2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
