@@ -1,5 +1,5 @@
 .hero-section{
-    padding : 2rem 0;
+    padding : 2rem 0 4rem;
     background-image : url("./assets/gradient-desktop.svg"),
     url("./assets/dots.svg")
     ;

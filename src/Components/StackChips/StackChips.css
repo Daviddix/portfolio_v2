@@ -1,0 +1,23 @@
+.stack-chip{
+    width: fit-content;
+    padding:.3rem .8rem;
+    column-gap: .4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 123rem;
+    -webkit-border-radius: 123rem;
+    -moz-border-radius: 123rem;
+    -ms-border-radius: 123rem;
+    -o-border-radius: 123rem;
+}
+
+.stack-chip img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.stack-chip p{
+    font-size: 1.1rem;
+    font-family: instrument-sans;
+    font-weight: 600;
+}

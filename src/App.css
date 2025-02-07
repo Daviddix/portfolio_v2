@@ -33,6 +33,23 @@ button.primary-btn{
     color: #fff;
 }
 
+button.sub-btn{
+    background-color: #fafafa;
+    color: #000;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.13);
+    display:flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: 600;
+    font-family: instrument-sans;
+}
+
 .italic{
     font-family: instrument-serif;
 }
