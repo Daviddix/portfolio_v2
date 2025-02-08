@@ -40,6 +40,7 @@
     font-weight: 300;
     font-family: instrument-sans;
     margin : 1rem 0;
+    line-height: 1.5;
 }
 
 .project .buttons-container{
