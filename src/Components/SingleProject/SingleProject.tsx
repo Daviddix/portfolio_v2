@@ -20,8 +20,8 @@ interface SingleProjectInterface  {
 }
 
 function SingleProject({projectTitle, githubLink, languagesArray, liveSiteLink, projectDescription, projectImage} : SingleProjectInterface) {
-    const mappedFullstackLanguages = languagesArray.map(({color, iconPath, name})=>{
-        return <StackChips name={name} iconPath={iconPath} color={color} key={Date.now()} />
+    const mappedFullstackLanguages = languagesArray.map(({color, iconPath, name}, i)=>{
+        return <StackChips name={name} iconPath={iconPath} color={color} key={i} />
     })
   return (
     <div className="project">
