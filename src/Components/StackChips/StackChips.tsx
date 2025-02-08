@@ -10,11 +10,12 @@ function StackChips({color, iconPath, name} : StackChipsProps) {
   return (
     <div
     style={{
-      border : `1px solid ${color}`
+      border : `1px solid ${color + "77"}`
     }}
     className="stack-chip">
       <img src={iconPath} alt={name} />
       <p
+      className={name == "Figma" ? "italic" : ""}
       style={
         {color : color}
       }

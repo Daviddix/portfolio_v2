@@ -1,16 +1,18 @@
 .about-section{
-    background-color: limegreen;
+    background-color: #61FB61;
     padding: 2rem 0;
-    color:darkgreen;
+    color:#034603;
 }
 
 .about-section .sub-heading{
     font-family : instrument-sans;
     margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .about-section .my-description{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
     font-family: instrument-sans;
     margin : 1rem 0;

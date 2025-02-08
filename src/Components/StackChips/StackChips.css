@@ -17,7 +17,10 @@
 }
 
 .stack-chip p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.stack-chip p:not(p.italic){
     font-family: instrument-sans;
     font-weight: 600;
 }

@@ -2,7 +2,7 @@ section.stack-section{
     border-top: 1px solid hsla(0, 0%, 0%, 0.13);
     border-bottom: 1px solid hsla(0, 0%, 0%, 0.13);
     padding : 3rem 0;
-    background-color: #fafafa;
+    background-color: #fafafa60;
 }
 
 .stack-section h1{
@@ -34,7 +34,7 @@ section.stack-section{
 
 .single-stack h2:not(.italic){
     font-family: instrument-sans;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 

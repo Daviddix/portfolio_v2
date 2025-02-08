@@ -1,5 +1,5 @@
 import "./About.css"
-import meSvg from "./assets/me.svg"
+import myImage from "./assets/me-small.png"
 
 function About() {
   return (
@@ -10,9 +10,15 @@ function About() {
  
         <h2 className="sub-heading">Hey there 👋🏾</h2>
 
-        <p className="my-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium cumque modi voluptate odit quibusdam iste dolores ex quisquam possimus? Maiores, numquam eaque. Impedit corporis dolore quod, perspiciatis, minima dolor corrupti repudiandae commodi reiciendis delectus aliquid expedita dignissimos nulla. Voluptate reprehenderit cupiditate sed doloribus explicabo eaque sapiente blanditiis ratione veritatis aut autem error nam odit quidem, exercitationem ipsa, ipsum porro deserunt laudantium possimus aliquid. Perferendis molestiae ratione assumenda dignissimos quidem sit maxime mollitia quia, sunt necessitatibus nobis ut, tempora vero odit.</p>
+        <p className="my-description">I am Emmanuel Nsikan-David, a student currently studying Computer Science. I have a deep passion for technology, from web development to theoretical computer science and everything in between.
+<br />
+<br />
+I also enjoy watching anime, TV shows, and documentaries. In my free time, I like cooking, playing games like Dream League Soccer, and watching tech gadget reviews.
+<br />
+<br />
+I run a small but growing YouTube channel where I share demos of my projects and other tech-related content. Currently, I am interested in learning more about building scalable web applications, artificial intelligence, and applying blockchain technology to real-world use cases.</p>
 
-        <img src={meSvg} alt="image of Nsikan" className="my-image" />
+        <img src={myImage} alt="image of Nsikan" className="my-image" />
 
       </div>
 

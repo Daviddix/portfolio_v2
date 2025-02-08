@@ -20,6 +20,7 @@ html{
 
 .inner-wrapper{
     width: 90%;
+    max-width: 110rem;
     margin: auto;
 }
 
@@ -29,7 +30,7 @@ button{
 }
 
 button.primary-btn{
-    background-color: green;
+    background-image: linear-gradient(to left, #00E331, #00BB29);
     color: #fff;
 }
 
@@ -55,7 +56,7 @@ button.sub-btn{
 }
 
 .main-heading{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     margin: 0 0 1rem 0;
     font-weight: 900;
     font-family: instrument-sans;
