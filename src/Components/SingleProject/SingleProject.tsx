@@ -34,13 +34,13 @@ function SingleProject({projectTitle, githubLink, languagesArray, liveSiteLink, 
     <p className="project-description">{projectDescription}</p>
 
     <div className="buttons-container">
-        <a href={githubLink}>
+        <a target="_blank" href={githubLink}>
         <button className="sub-btn">
             <img src={githubIcon} /> Source Code
         </button>
         </a>
 
-        <a href={liveSiteLink}>
+        <a target="_blank" href={liveSiteLink}>
         <button className="primary-btn">
         <img src={liveIcon} /> Live Site 
         </button>

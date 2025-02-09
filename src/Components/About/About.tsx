@@ -16,7 +16,7 @@ function About() {
 I also enjoy watching anime, TV shows, and documentaries. In my free time, I like cooking, playing games like Dream League Soccer, and watching tech gadget reviews.
 <br />
 <br />
-I run a small but growing YouTube channel where I share demos of my projects and other tech-related content. Currently, I am interested in learning more about building scalable web applications, artificial intelligence, and applying blockchain technology to real-world use cases.</p>
+I run a small but growing <a target="_blank" href="https://www.youtube.com/@daviddixx6737"><b>YouTube channel</b></a> where I share demos of my projects and other tech-related content. Currently, I am interested in learning more about building scalable web applications, artificial intelligence, and applying blockchain technology to real-world use cases.</p>
 
         <img src={myImage} alt="image of Nsikan" className="my-image" />
 

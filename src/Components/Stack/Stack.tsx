@@ -49,7 +49,7 @@ const stackInfo = [{
 
 function Stack(){
     const allStack = stackInfo.map(({icon, name})=>{
-        return <div className="single-stack">
+        return <div key={name} className="single-stack">
         <img src={icon} alt="icon" />
         
         <h2 className={name == "Figma" ? "italic" : ""}>{name}</h2>
