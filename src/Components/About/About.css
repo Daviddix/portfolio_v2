@@ -18,6 +18,11 @@
     margin : 1rem 0;
     line-height: 1.8;
 }
+
+.my-description a{
+    color : inherit;
+}
+
 .about-section .my-image{
     width:100%;
 }
