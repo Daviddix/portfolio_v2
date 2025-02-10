@@ -10,11 +10,11 @@
     object-position: top;
     aspect-ratio: 16/9;
     max-height: 50rem;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .project .project-title{
@@ -33,12 +33,12 @@
 }
 
 .project .project-description{
-    font-size: clamp(1.4rem, 2vw, 1.8rem);
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
     font-weight: 300;
     font-family: instrument-sans;
     margin : 1rem 0;
     width:100%;
-    max-width: 90rem;
+    max-width: 95rem;
     line-height: 1.5;
     opacity: .9;
 }

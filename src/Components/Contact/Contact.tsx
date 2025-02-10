@@ -34,7 +34,7 @@ function Contact() {
     </div>
   })
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="inner-wrapper">
 
         <h1 className="main-heading">Contact Me</h1>

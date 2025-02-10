@@ -26,3 +26,22 @@
 .about-section .my-image{
     width:100%;
 }
+
+@media screen and (min-width:800px) {
+    .about-section .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    }
+
+    .about-container > div{
+        flex:1;
+        width:100%;
+    }
+
+    .about-section .my-image{
+        flex: 1;
+        width:50%;
+    }
+}

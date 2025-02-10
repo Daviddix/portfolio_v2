@@ -18,7 +18,7 @@ function Projects() {
     })
 
   return (
-    <section className='projects-section'>
+    <section id="projects" className='projects-section'>
         <div className="inner-wrapper">
 
         <h1 className="main-heading">My Projects</h1>
