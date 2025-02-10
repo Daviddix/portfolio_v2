@@ -16,6 +16,21 @@
     flex-direction: column;
 }
 
+.hero-section header{
+    position: sticky;
+    top:1rem;
+}
+
+.hero-section nav{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hero-section nav.show{
+    opacity: 1;
+    visibility: visible;
+}
+
 .hero-section nav ul{
     background-color: #61FB61;
     display:flex;
@@ -168,5 +183,10 @@
 
     .hero-section ul button{
         display:none;
+    }
+
+    .hero-section nav{
+        opacity: 1;
+        visibility: visible;
     }
 }
