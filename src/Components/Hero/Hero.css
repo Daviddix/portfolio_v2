@@ -18,8 +18,27 @@
 
 .hero-section header{
     position: sticky;
+    transition: .2s ease-in-out;
     top:1rem;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
 }
+
+.hero-section header.sticky{
+    background-color: #fafafa44;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 .1rem 1rem .5rem rgba(0, 0, 0, 0.055);
+    height:5rem;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    left:0;
+    min-width:100%;
+}
+
 
 .hero-section nav{
     opacity: 0;
@@ -88,6 +107,10 @@
     border: none;
     display: block;
     margin: 0 0 3rem auto;
+}
+
+.hero-section header.sticky .menu-btn{
+    margin: 0 5% 0 auto;
 }
 
 .hero-section h1{
@@ -188,5 +211,13 @@
     .hero-section nav{
         opacity: 1;
         visibility: visible;
+    }
+
+    .hero-section header.sticky{
+        height: 6rem;
+    }
+
+    .hero-section header.sticky nav{
+        margin: auto;
     }
 }

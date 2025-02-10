@@ -17,7 +17,7 @@ function Hero(){
 
     function makeHeaderStick(){
         window.addEventListener("scroll", function() {
-            if (window.scrollY > 100) { // Adjust scroll position as needed
+            if (window.scrollY > 50) { // Adjust scroll position as needed
                 if(headerRef.current){
                     (headerRef.current as HTMLElement).classList.add("sticky");
                 }}
@@ -59,6 +59,7 @@ function Hero(){
                     {mappedNavLinks}
                 </ul>
             </nav>
+
             <button
             onClick={()=>{
                 setShowMobileMenu(true)
