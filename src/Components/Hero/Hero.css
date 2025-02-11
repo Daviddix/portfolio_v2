@@ -1,13 +1,21 @@
 .hero-section{
     padding : 2rem 0 4rem;
-    background : url("./assets/gradient-desktop.svg") repeat 1rem,
+    background : url("./assets/gradient-mobile.svg"),
     url("./assets/dots.svg")
     ;
-    background-size: 50vh, cover;
+    background-size:cover;
     font-family: instrument-sans;
     background-repeat: no-repeat;
     background-position:center, center;
     height:70vh;
+}
+
+@media screen and (min-width:600px) {
+    .hero-section{
+        background: url("./assets/gradient-desktop.svg"),
+        url("./assets/dots.svg")
+        ;
+    }
 }
 
 .hero-section .inner-wrapper{
@@ -18,12 +26,12 @@
 
 .hero-section header{
     position: sticky;
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
     top:1rem;
-    -webkit-transition: .2s ease-in-out;
-    -moz-transition: .2s ease-in-out;
-    -ms-transition: .2s ease-in-out;
-    -o-transition: .2s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
 }
 
 .hero-section header.sticky{
