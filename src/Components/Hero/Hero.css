@@ -58,6 +58,19 @@
     visibility: visible;
 }
 
+.hero-section nav.show a:hover{
+    transition: ease-in .2s ;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -webkit-transition: ease-in .2s ;
+    -moz-transition: ease-in .2s ;
+    -ms-transition: ease-in .2s ;
+    -o-transition: ease-in .2s ;
+}
+
 .hero-section nav ul{
     background-color: #61FB61;
     display:flex;
@@ -65,17 +78,17 @@
     position: fixed;
     top:0;
     left:0;
-    width:90vw;
+    width:100vw;
     border:1px solid #00000023;
-    margin: 30vh 5vw;
+    margin: 0;
     height:20rem;
     justify-content: space-between;
-    padding:1.5rem;
-    border-radius: 1.5rem;
-    -webkit-border-radius: 1.5rem;
-    -moz-border-radius: 1.5rem;
-    -ms-border-radius: 1.5rem;
-    -o-border-radius: 1.5rem;
+    padding:1.5rem 4rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .hero-section nav a{

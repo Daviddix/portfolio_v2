@@ -25,7 +25,7 @@ function SingleProject({projectTitle, githubLink, languagesArray, liveSiteLink, 
     })
   return (
     <div className="project">
-    <img src={projectImage} alt="project image" className="project-image" />
+    <img loading="lazy" src={projectImage} alt="project image" className="project-image" />
     <h1 className="project-title">{projectTitle}</h1>
     <div className="stack-chips-container">
         {mappedFullstackLanguages}

@@ -28,6 +28,19 @@ html{
 button{
     font-family: inherit;
     cursor: pointer;
+    transition: transform .3s ease;
+    -webkit-transition: transform .3s ease;
+    -moz-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    -o-transition: transform .3s ease;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
 }
 
 button.primary-btn{
