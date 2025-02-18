@@ -42,7 +42,7 @@ function Contact() {
         {mappedContactInfo}
 
         <p className="copyrite">
-            c2025. Built & Designed by Emmanuel Nsikan-David
+            ©2025. Built & Designed by Emmanuel Nsikan-David
         </p>
       </div>
     </section>
