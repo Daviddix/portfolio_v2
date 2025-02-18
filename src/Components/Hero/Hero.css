@@ -89,6 +89,7 @@
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    z-index: 3;
 }
 
 .hero-section nav a{
