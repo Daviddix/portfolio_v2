@@ -1,5 +1,5 @@
-import sauceImage from "./assets/i.webp"
-import deliciousoImage from "./assets/deliciouso.png"
+import mobileBenchmarksImage from "./assets/mobile-benchmarks.png"
+import rutaImage from "./assets/ruta.png"
 import cryptoStatsImage from "./assets/cryptostats.png"
 import revealImage from "./assets/reveal.png"
 import htmlIcon from "./assets/html-icon.svg"
@@ -32,6 +32,11 @@ const fullstackLanguages : Stack[] = [{
     iconPath : nodeIcon,
     color : "#3DA92E"
  },
+ {
+   name : "Express.JS",
+   iconPath : expressIcon,
+   color : "#000000"
+  },
  {
     name : "MongoDB",
     iconPath : mongoIcon,
@@ -67,20 +72,19 @@ const vanillaLanguages : Stack[] = [{
  ]
 
 const allProjects = [{
-    projectImage : sauceImage,
-    projectTitle : "Sauce : Use AI to find Movies, TV Shows and Anime you’ve forgotten ",
-    projectDescription : "Sauce is a web application designed to help you rediscover Anime, TV shows, and Movies you've forgotten. Just provide any description or fragmentary details you remember and sauce finds what you’re looking for",
-    githubLink : "https://github.com/daviddix/sauce",
-    liveSiteLink : "https://use-sauce.vercel.app/app",
+    projectImage : mobileBenchmarksImage,
+    projectTitle : "Mobile Benchmarks : Discover Games That Run Perfectly on Your Phone ",
+    projectDescription : "Mobile benchmarks is a web application that helps you compare and discover mobile games that perform well on your device. Mobile Benchmarks gives you tailored benchmarks, real-user results, and game-specific performance insights",
+    liveSiteLink : "https://mobile-benchmarks.vercel.app/",
     languagesArray : fullstackLanguages
 },
 {
-    projectImage : deliciousoImage,
-    projectTitle : "Deliciouso : An Easy Way to Find & Share Recipes ",
-    projectDescription : "Deliciouso is a web application designed to help you discover a variety of recipes and allows you to add your own. With Deliciouso, you can easily view recipes, create new ones, delete them when no longer needed, and update your existing recipes. Additionally, Deliciouso lets you view the profiles of other users, making it a simple way to share and explore recipes with others.",
-    githubLink : "https://github.com/Daviddix/recipe-web-application",
+    projectImage : rutaImage,
+    projectTitle : "Ruta : Your Guide to Learning fast with AI",
+    projectDescription : "Ruta is a web application that leverages the power of AI to create personalized learning paths. Tell Ruta what you want to learn and Ruta generates a customized roadmap to help you achieve your learning objectives efficiently and effectively.",
+    githubLink : "https://github.com/Daviddix/ruta",
     liveSiteLink : "https://deliciouso.netlify.app/",
-    languagesArray : fullstackLanguages
+    languagesArray : vanillaLanguages
 },
 {
     projectImage : cryptoStatsImage,

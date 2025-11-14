@@ -8,8 +8,8 @@
     border: 1px solid hsla(0, 0%, 0%, 0.13);
     object-fit: cover;
     object-position: top;
-    aspect-ratio: 16/9;
-    max-height: 50rem;
+    aspect-ratio: 16/10;
+    max-height: 60rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;

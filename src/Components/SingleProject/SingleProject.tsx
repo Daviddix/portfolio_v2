@@ -14,7 +14,7 @@ interface SingleProjectInterface  {
     projectImage : string;
     projectTitle : string;
     projectDescription : string;
-    githubLink : string;
+    githubLink : string | undefined;
     liveSiteLink : string;
     languagesArray : Stack[];
 }
@@ -34,11 +34,15 @@ function SingleProject({projectTitle, githubLink, languagesArray, liveSiteLink, 
     <p className="project-description">{projectDescription}</p>
 
     <div className="buttons-container">
+        {
+            githubLink && (
         <a target="_blank" href={githubLink}>
         <button className="sub-btn">
             <img src={githubIcon} /> Source Code
         </button>
         </a>
+            )
+        }
 
         <a target="_blank" href={liveSiteLink}>
         <button className="primary-btn">
