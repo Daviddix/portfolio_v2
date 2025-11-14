@@ -8,6 +8,7 @@ import nodeIcon from "./assets/node-icon.svg"
 import expressIcon from "./assets/express-icon.svg"
 import mongoIcon from "./assets/mongo-icon.svg"
 import figmaIcon from "./assets/figma-icon.svg"
+import nextIcon from "./assets/next-icon.svg"
 
 const stackInfo = [{
     name : "HTML",
@@ -40,6 +41,10 @@ const stackInfo = [{
     {
         name : "MongoDB",
         icon : mongoIcon
+    },
+    {
+        name : "Next.JS",
+        icon : nextIcon
     },
     {
         name : "Figma",
