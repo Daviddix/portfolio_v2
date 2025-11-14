@@ -2,6 +2,7 @@ import mobileBenchmarksImage from "./assets/mobile-benchmarks.png"
 import rutaImage from "./assets/ruta.png"
 import cryptoStatsImage from "./assets/cryptostats.png"
 import revealImage from "./assets/reveal.png"
+import deliciousoImage from "./assets/deliciouso.png"
 import htmlIcon from "./assets/html-icon.svg"
 import cssIcon from "./assets/css-icon.svg"
 import jsIcon from "./assets/js-icon.svg"
@@ -93,6 +94,14 @@ const allProjects = [{
     githubLink : "https://github.com/Daviddix/CryptoStats---Track-cryptocurrency-prices-without-leaving-your-tab",
     liveSiteLink : "https://chromewebstore.google.com/detail/cryptostats/apnalilblhlemleggbcddjpmkciocimc",
     languagesArray : vanillaLanguages
+},
+{
+    projectImage : deliciousoImage,
+    projectTitle : "Deliciouso : An Easy Way to Find & Share Recipes",
+    projectDescription : "Deliciouso is a web application designed to help you discover a variety of recipes and allows you to add your own. With Deliciouso, you can easily view recipes, create new ones, delete them when no longer needed, and update your existing recipes. Additionally, Deliciouso lets you view the profiles of other users, making it a simple way to share and explore recipes with others.",
+    githubLink : "https://github.com/Daviddix/recipe-web-application",
+    liveSiteLink : "https://deliciouso.netlify.app/",
+    languagesArray : fullstackLanguages
 },
 {
     projectImage : revealImage,
